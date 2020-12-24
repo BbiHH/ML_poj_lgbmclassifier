@@ -12,21 +12,17 @@ CCCF-数据挖掘-企业非法集资风险预测
 
 ## 项目内容结构
 ```
-├── bin
-│   ├── download_sample.sh
-├── Dockerfile
-├── feature
-│   ├── conf
-│   ├── feature_inference_etl
-│   ├── feature_train_etl
-│   ├── feature.zip
-│   ├── init.py
-│   ├── label_etl
-│   └── util
-├── indicator
+├── 企业非法集资风险预测.ipynb
+├── dataset
+│   ├── train
+│   ├    ├── annual_report_info.csv
+│   ├    ├── base_info.csv
+│   ├    ├── change_info.csv
+│   ├    ├── entprise_info.csv
+│   ├    ├── news_info.csv
+│   ├    ├── other_info.csv
+│   ├    ├── tax_info.csv
+│   ├── entprise_evaluate.csv
+│   ├── entprise_submit.csv
 ├── README.md
-├── requirements.txt
-├── sbin
-│   └── install.sh
-└── structure-drip-docker.png
 ```
